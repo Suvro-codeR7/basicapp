@@ -20,7 +20,7 @@ with st.form("user form"):
         index=None,
         )
 
-  
+    option = st.selectbox("How would you like to be contacted?",("Email", "Home phone", "Mobile phone"),)
 
     #toggle button
     enableuser = st.toggle("Activate User")
